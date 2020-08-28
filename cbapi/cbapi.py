@@ -95,14 +95,5 @@ def change_timestamp(df:pd.DataFrame):
     df['updated_at'] = df['updated_at'].apply(timestamp_to_datetime)
     return df
 
-if __name__ == "__main__":
-    condition = {'name': 'Nick', "locations": "New York"}
-    condition_org = {'name': 'Data',"locations": 'California'}
-    result = get_data(condition_org, False)
-    result_mod = change_timestamp(result)
-    print(result_mod)
-
-
-
 
 
