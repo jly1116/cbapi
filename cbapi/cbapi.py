@@ -5,7 +5,7 @@ from threading import Thread
 from queue import Queue
 from datetime import datetime, timedelta
 
-RAPIDAPI_KEY = "10e5ddb44dmsh8e4c29fae45d45ep11120ajsn015f6704ef8c"
+RAPIDAPI_KEY = ""
 # enter your own RapidAPI key, register on rapidapi.com to get one in case you don't
 
 def get_api_key():
